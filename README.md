@@ -3,7 +3,7 @@
 An interaction design prototype exploring how compliance analysts review, justify,
 and dispose of anti-money-laundering alerts.
 
-**[Live demo →]([https://meridian-aml.vercel.app/])**
+**[Live demo →](https://meridian-aml.vercel.app/)**
 
 ![Meridian alert triage console](./demo.gif)
 

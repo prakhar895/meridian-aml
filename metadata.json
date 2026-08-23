@@ -1,0 +1,6 @@
+{
+  "name": "Meridian",
+  "description": "AML alert triage console for bank compliance analysts with interactive graph, transaction timeline, signal linking, and audit trail dispositioning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

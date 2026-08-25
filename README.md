@@ -69,6 +69,37 @@ and a text label alongside its colour (WCAG 1.4.1).
 
 ---
 
+## Running locally
+
+```
+git clone https://github.com/prakhar895/meridian-aml.git
+cd meridian-aml
+npm install
+npm run dev
+```
+
+No API keys, no environment variables, no backend.
+
+## Structure
+
+```
+src/
+├── data/alerts.ts          Five synthetic cases: signals, graph, timeline
+├── lib/
+│   ├── scoring.ts          Derives risk score from weighted signals
+│   ├── timing.ts           Animation constants
+│   └── format.ts           Currency, date, duration helpers
+├── hooks/
+│   ├── useHighlightLink.ts Bidirectional signal ↔ evidence linking
+│   ├── useKeyboardTriage.ts J/K navigation, disposition shortcuts
+│   ├── useStagedReveal.ts  Sequenced entry animation
+│   └── useTypewriter.ts    Character-level summary reveal
+├── components/             EntityGraph, TransactionTimeline, RiskPanel, ...
+└── App.tsx                 State and wiring
+```
+
+---
+
 ## Build notes
 
 React · TypeScript · Tailwind · hand-built SVG for the entity graph and transaction
